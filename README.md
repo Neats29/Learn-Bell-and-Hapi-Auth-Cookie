@@ -6,6 +6,8 @@ This an example to use both Hapi's Bell plugin where you could login using the T
 npm install hapi
 npm install bell
 npm install hapi-auth-cookie
+
+run node bell_hapi_auth.js
 ```
 
 Further reading: 
