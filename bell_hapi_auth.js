@@ -1,14 +1,13 @@
 var Hapi = require('hapi');
 var Bell = require('bell');
 var Cookie = require('hapi-auth-cookie');
-var config = require('getconfig');
 
 var server = new Hapi.Server();
 
 var nav = '<nav><a href="/">Home</a> <a href="/session">Session</a> <a href="/hi">Hi</a> <a href="/login">Log in</a> <a href="/logout">Log out</a></nav>';
 
 server.connection({ 
-    host: config.hostname, 
+    host: 'localhost', 
     port: 8000 
 });
 
