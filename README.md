@@ -11,4 +11,5 @@ npm install getconfig
 
 Further reading: 
 1. [bell](https://github.com/hapijs/bell)
+
 2. [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)
